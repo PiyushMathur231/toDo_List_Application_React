@@ -36,6 +36,12 @@ html {
   text-transform: capitalize;
 }
 
+@media(max-width: 420px){
+  input, .eachItem{
+    min-width: 25rem !important;
+  }
+}
+
 input {
   /* display: block; */
   min-width: 40rem;
